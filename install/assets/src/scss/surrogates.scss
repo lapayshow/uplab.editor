@@ -1,0 +1,63 @@
+.uplab-surrogate-btn {
+  display: inline-flex;
+  height: 30px;
+  width: 30px;
+  font-size: 13px;
+
+  border-radius: 4px;
+  border: none;
+  /* border-top: 1px solid #fff; */
+  text-shadow: 0 1px rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 1px rgba(0, 0, 0, .3),
+  0 1px 1px rgba(0, 0, 0, .3),
+  inset 0 1px 0 #fff,
+  inset 0 0 1px rgba(255, 255, 255, .5);
+  background-color: #e0e9ec;
+  background-image: linear-gradient(to top, #d7e3e7, #fff) !important;
+  color: #3f4b54;
+  cursor: pointer;
+  /* line-height: 18px; */
+  text-decoration: none;
+  position: relative;
+  vertical-align: middle;
+}
+
+.uplab-surrogate-btn, .uplab-surrogate-btn * {
+  box-sizing: border-box;
+}
+
+.uplab-surrogate-btn svg,
+.uplab-surrogate-btn img {
+  width: 18px;
+  height: 18px;
+  margin: auto;
+  fill: #96a9b7;
+  filter: drop-shadow(1px 1px 0px rgba(255, 255, 255, .9));
+  /*opacity: 0.7;*/
+}
+
+.uplab-surrogate-col-1 {
+  width: 120px;
+  flex-grow: 0;
+}
+
+.uplab-surrogate-col-2 {
+  width: calc(100% - 180px);
+  flex-grow: 0;
+}
+
+.uplab-surrogate-col-2 span {
+  display: block;
+  width: 100%;
+}
+
+.uplab-surrogate-col-3 {
+  flex-grow: 0;
+  width: 30px;
+}
+
+.uplab-surrogate-row {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}

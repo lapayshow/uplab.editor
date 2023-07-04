@@ -1,11 +1,12 @@
 {
-    "name": "uplab/uplab.editor",
-    "description": "Расширяет функционал визуального редактора",
-    "homepage": "https://bitbucket.org/uplabteam/uplab.editor/",
+    "name": "lapayshow/uplab.editor",
+    "description": "Расширяет функционал визуального редактора (LOODESN VERSION)",
+    "homepage": "https://github.com/lapayshow/uplab.editor",
     "type": "bitrix-module",
     "keywords": [
         "bitrix",
-        "uplab"
+        "uplab",
+        "loodsen-version"
     ],
     "license": "MIT",
     "extra": {
